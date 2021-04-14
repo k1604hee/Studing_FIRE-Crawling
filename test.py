@@ -1,3 +1,5 @@
+# Coding for Take Impormation In Naver Finance
+
 import datetime
 import pandas as pd
 import time
@@ -16,9 +18,9 @@ def read_naver_toronbang():
     code = '096040'
     # code = '019550'
     import os
-    year =  datetime.datetime.strftime(datetime.datetime.today(), '%Y')  # 월 가져오는 코드              #2021.02.21
+    year =  datetime.datetime.strftime(datetime.datetime.today(), '%Y')  # 년 가져오는 코드              #2021.02.21
     month = datetime.datetime.strftime(datetime.datetime.today(), '%m')  # 월 가져오는 코드              #2021.02.21
-    day = datetime.datetime.strftime(datetime.datetime.today(), '%d')  # 월 가져오는 코드              #2021.02.21
+    day = datetime.datetime.strftime(datetime.datetime.today(), '%d')  # 일 가져오는 코드              #2021.02.21
     pre_year = year
     pre_month = month
     pre_day = day
